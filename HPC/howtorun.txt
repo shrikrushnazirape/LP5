@@ -1,0 +1,12 @@
+-to run the hpc code on linux
+gcc assign1.cpp -fopenmp -lstdc++ -o assign1.out
+./assign1
+
+-install cuda toolkit
+sudo apt install nvidia-cuda-toolkit
+
+-Compile the cuda code
+nvcc assign.cu -o assign1
+
+-run the cuda code : 
+./assign1
